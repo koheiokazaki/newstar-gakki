@@ -1,0 +1,81 @@
+@import "compass";
+@import "variable.scss";
+@font-face {
+	font-family: 'Marugame';
+	src: url('../fonts/marugame.eot');
+	src: url('../fonts/marugame.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/marugame.woff') format('woff'),
+	url('../fonts/marugame.otf') format('opentype');
+}
+
+html, body {
+  font-size: .9em;
+  background-color: #fffffb;
+  width: 100%;
+  height: 100%;
+  font-family: "Marugame","游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+  color: #515151;
+  -webkit-font-smoothing: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,select,td,textarea,th,ul {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var {
+    font: inherit;
+}
+li {
+    list-style: none;
+}
+q:after,q:before {
+    content: '';
+}
+sub,sup {
+    vertical-align: baseline;
+}
+.clear{
+  clear: both;
+}
+.center{
+	text-align: center;
+}
+.bold{
+	font-weight: bold;
+}
+p{
+	line-height: 3.5rem;
+}
+a {
+    text-decoration: none;
+    color: #515151;
+}
+p a {
+    text-decoration: underline;
+    transition: all 0.2s;
+}
+p a:hover {
+    opacity: 0.8;
+}
+.blue{
+  color: #43aac4;
+}
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+.btn{
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 1.2em;
+}

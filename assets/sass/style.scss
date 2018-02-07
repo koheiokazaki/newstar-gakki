@@ -1,0 +1,98 @@
+@import "compass";
+@import "variable.scss";
+
+.head-top{
+  margin: 20px 0;
+  .head-left{
+    float: left;
+    vertical-align: top;
+    width: 39%;
+    img{
+      vertical-align: top;
+      width: 250px;
+    }
+  }
+  .head-right{
+    float: left;
+    vertical-align: top;
+    width: 60%;
+    .head-top-list{
+      li{
+        float: right;
+        margin: 0 6px;
+        font-size: 1.1em;
+        .i{
+          display: inline-block;
+          // padding-right: 5px;
+          img{
+            vertical-align: middle;
+            width: 14px;
+          }
+        }
+      }
+    }
+    .btn{
+      background: #43aac4;
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+      float: right;
+      padding: 10px 51px;
+      margin-top: 6px;
+    }
+  }
+}
+
+.head-bottom{
+  ul li{
+    float: left;
+    width: 160px;
+    text-align: center;
+    transition: .2s;
+    font-size: 1.3em;
+    padding: 15px 0;
+  }
+  ul li:hover{
+    color: $blue;
+  }
+}
+.slider{
+  width: 100%;
+  background: #eee;
+  height: 350px;
+}
+
+.content{
+  margin: 50px 0;
+  .main_content{
+    float: right;
+    background: #000;
+    height: 500px;
+    width: 720px;
+  }
+  .sidebar{
+    float: right;
+    // height: 500px;
+    // background: #eee;
+    width: 240px;
+    h2{
+      text-align: center;
+      margin-bottom: 20px;
+      img{
+        width: 60px;
+      }
+    }
+    .side-cources li{
+      padding: 10px;
+      font-size: 1.2em;
+      transition: .2s;
+      svg{
+        margin-right: 10px;
+      }
+    }
+    .side-cources li:hover{
+      color: $blue;
+      background: #fbfeff;
+    }
+  }
+}
