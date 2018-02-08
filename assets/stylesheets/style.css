@@ -44,8 +44,12 @@
   padding: 10px 51px;
   margin-top: 6px;
 }
+/* line 43, ../sass/style.scss */
+.head-top .head-right .btn:hover {
+  background: #c44343;
+}
 
-/* line 47, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .head-bottom ul li {
   float: left;
   width: 160px;
@@ -54,54 +58,53 @@
   font-size: 1.3em;
   padding: 15px 0;
 }
-/* line 55, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .head-bottom ul li:hover {
   color: #43aac4;
 }
 
-/* line 59, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .slider {
   width: 100%;
   background: #eee;
   height: 350px;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .content {
   margin: 50px 0;
 }
-/* line 67, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .content .main_content {
   float: right;
-  background: #000;
   height: 500px;
   width: 720px;
 }
-/* line 73, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .content .sidebar {
   float: right;
   width: 240px;
 }
-/* line 78, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .content .sidebar h2 {
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 81, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .content .sidebar h2 img {
   width: 60px;
 }
-/* line 85, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .content .sidebar .side-cources li {
   padding: 10px;
   font-size: 1.2em;
   transition: .2s;
 }
-/* line 89, ../sass/style.scss */
+/* line 92, ../sass/style.scss */
 .content .sidebar .side-cources li svg {
   margin-right: 10px;
 }
-/* line 93, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .content .sidebar .side-cources li:hover {
   color: #43aac4;
   background: #fbfeff;
