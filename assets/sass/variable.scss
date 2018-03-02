@@ -1,1 +1,25 @@
 $blue: #43aac4;
+
+
+@mixin circle($size) {
+     width: $size;
+     height: $size;
+     border-radius: 100%;
+}
+@mixin center {
+　　text-align: center;
+　　position: relative;
+　　top: 50%;
+　　-webkit-transform: translateY(-50%);
+　　-ms-transform: translateY(-50%);
+　　transform: translateY(-50%);
+}
+
+@mixin btn{
+  background: #43aac4;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 51px;
+  margin-top: 6px;
+}

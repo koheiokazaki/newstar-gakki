@@ -24,6 +24,9 @@ blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,l
     margin: 0;
     padding: 0;
 }
+h2{
+	font-weight: normal;
+}
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -53,18 +56,21 @@ sub,sup {
 	font-weight: bold;
 }
 p{
-	line-height: 3.5rem;
+	line-height: 2.3rem;
+	font-size: 1.1rem;
+	font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+
 }
 a {
-    text-decoration: none;
-    color: #515151;
+  text-decoration: none;
+	@include link-colors(#515151, red, pink);
 }
 p a {
-    text-decoration: underline;
-    transition: all 0.2s;
+  text-decoration: underline;
+  transition: all 0.2s;
 }
 p a:hover {
-    opacity: 0.8;
+  @include opacity(.8);
 }
 .blue{
   color: #43aac4;
@@ -75,8 +81,8 @@ p a:hover {
 }
 .btn{
   padding: 10px 20px;
-  display: inline-block;
-  border-radius: 4px;
+  @include inline-block;
+  @include border-radius(4px);
   font-size: 1.2em;
 	transition: .2s;
 }
