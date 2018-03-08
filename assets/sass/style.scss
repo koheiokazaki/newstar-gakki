@@ -58,7 +58,10 @@
   }
   .head-bottom-list li:hover{
     color: $blue;
-    background: #fbfeff
+    background: $light-blue
+  }
+  a:hover{
+    color: $blue;
   }
   #menu{
     display: none;
@@ -101,13 +104,14 @@
           border-bottom: 1px dotted #c7ecf5;
           height: 45px;
           box-sizing: border-box;
+          text-align: left;
           svg{
             margin-right: 10px;
           }
         }
         ul li:hover{
           color: $blue;
-          background: #fbfeff
+          background: $light-blue
         }
       }
       .etc{
@@ -120,7 +124,7 @@
   }
 }
 
-.slider{
+.slider, .thumbnail-bk{
   width: 100%;
   background: #eee;
   height: 350px;
@@ -145,6 +149,23 @@
       }
       img{
         width: 150px;
+      }
+    }
+    table{
+      width: 100%;
+      margin-bottom: 30px;    
+    }
+    table,tr,th,td{
+      font-size: 1.1em;
+      border: 1px solid;
+      border-collapse: collapse;
+      border-color: #c8f1ff;
+      box-sizing: border-box;
+      padding: 10px;
+      text-align: center;
+      th{
+        color: $blue;
+        background: $light-blue;
       }
     }
     #intro{
@@ -222,7 +243,30 @@
     }
     .side-cources li:hover{
       color: $blue;
-      background: #fbfeff;
+      background: $light-blue;
     }
+  }
+}
+
+.pages{
+  h2{
+    text-align: left!important;
+    color: $blue;
+    margin-bottom: 50px;
+  }
+  h3{
+    text-align: left;
+    font-size: 1.6em;
+    margin-bottom: 30px;
+  }
+  h4{
+    text-align: left;
+    font-size: 1.5em;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+  }
+  p{
+    margin-bottom: 30px;
   }
 }

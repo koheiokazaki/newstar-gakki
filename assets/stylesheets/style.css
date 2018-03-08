@@ -69,6 +69,10 @@
   background: #fbfeff;
 }
 /* line 63, ../sass/style.scss */
+.head-bottom a:hover {
+  color: #43aac4;
+}
+/* line 66, ../sass/style.scss */
 .head-bottom #menu {
   display: none;
   position: absolute;
@@ -76,28 +80,28 @@
   height: 300px;
   background: rgba(255, 255, 255, 0.6);
 }
-/* line 70, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .head-bottom #menu .menu-title {
   float: left;
   width: 15%;
 }
-/* line 73, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .head-bottom #menu .menu-title h2 {
   text-align: center;
   margin-top: 115px;
   font-size: 1.2em;
 }
-/* line 77, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .head-bottom #menu .menu-title h2 img {
   width: 60px;
 }
-/* line 82, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 .head-bottom #menu .menu-content {
   float: left;
   width: 85%;
   margin-top: 20px;
 }
-/* line 86, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .head-bottom #menu .menu-content div {
   font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
   float: left;
@@ -105,13 +109,13 @@
   box-sizing: border-box;
   padding: 0 5px;
 }
-/* line 92, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .head-bottom #menu .menu-content div h3 {
   text-align: center;
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
-/* line 97, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .head-bottom #menu .menu-content div ul li {
   padding: 10px;
   font-size: 1em;
@@ -119,98 +123,119 @@
   border-bottom: 1px dotted #c7ecf5;
   height: 45px;
   box-sizing: border-box;
+  text-align: left;
 }
-/* line 104, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .head-bottom #menu .menu-content div ul li svg {
   margin-right: 10px;
 }
-/* line 108, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .head-bottom #menu .menu-content div ul li:hover {
   color: #43aac4;
   background: #fbfeff;
 }
-/* line 113, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .head-bottom #menu .menu-content .etc {
   margin-top: 35px;
 }
-/* line 115, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .head-bottom #menu .menu-content .etc li {
   font-size: .8rem;
 }
 
-/* line 123, ../sass/style.scss */
-.slider {
+/* line 127, ../sass/style.scss */
+.slider, .thumbnail-bk {
   width: 100%;
   background: #eee;
   height: 350px;
 }
 
-/* line 129, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .content {
   margin: 50px 0;
 }
-/* line 131, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .content .main_content {
   float: right;
   height: 500px;
   width: 720px;
 }
-/* line 136, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .content .main_content h2 {
   text-align: center;
   font-size: 1.7rem;
   line-height: 2.5rem;
 }
-/* line 140, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .content .main_content h2 .gray {
   height: 1px;
   width: 50px;
   margin: 5px auto;
   background: #ebe8e7;
 }
-/* line 146, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .content .main_content h2 img {
   width: 150px;
 }
-/* line 150, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
+.content .main_content table {
+  width: 100%;
+  margin-bottom: 30px;
+}
+/* line 158, ../sass/style.scss */
+.content .main_content table, .content .main_content tr, .content .main_content th, .content .main_content td {
+  font-size: 1.1em;
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: #c8f1ff;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+/* line 166, ../sass/style.scss */
+.content .main_content table th, .content .main_content tr th, .content .main_content th th, .content .main_content td th {
+  color: #43aac4;
+  background: #fbfeff;
+}
+/* line 171, ../sass/style.scss */
 .content .main_content #intro {
   margin: 30px;
 }
-/* line 152, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .content .main_content #intro .intro_left {
   float: left;
   width: 70%;
   padding: 0 10px;
   box-sizing: border-box;
 }
-/* line 158, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .content .main_content #intro .intro_right {
   float: left;
   width: 30%;
 }
-/* line 163, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .content .main_content #notice {
   margin: 30px;
   height: 130px;
   overflow: scroll;
 }
-/* line 167, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .content .main_content #notice ul li {
   font-size: 1.1rem;
   padding: 10px 0;
   border-bottom: 1px dotted #43aac4;
 }
-/* line 171, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .content .main_content #notice ul li .date {
   color: #43aac4;
   margin-right: 20px;
   font-family: 'Open Sans',"游ゴシック体", "Yu Gothic", YuGothic,'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
 }
-/* line 178, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .content .main_content #experience {
   margin: 30px 0;
 }
-/* line 180, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 .content .main_content #experience .ex-content {
   width: 49%;
   height: auto;
@@ -223,18 +248,18 @@
   *display: inline;
   background: #fff;
 }
-/* line 187, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 .content .main_content #experience .ex-content h3 {
   font-size: 1.3rem;
   line-height: 2rem;
 }
-/* line 191, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .content .main_content #experience .ex-content p {
   margin: 20px 0;
   font-size: 1rem;
   line-height: 1.4rem;
 }
-/* line 197, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .content .main_content #experience .btn {
   background: #43aac4;
   color: #fff;
@@ -243,35 +268,60 @@
   padding: 10px 51px;
   margin-top: 6px;
 }
-/* line 202, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .content .sidebar {
   float: right;
   width: 240px;
 }
-/* line 205, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 .content .sidebar h2 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 1.7rem;
   line-height: 2.5rem;
 }
-/* line 210, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .content .sidebar h2 img {
   width: 60px;
 }
-/* line 214, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 .content .sidebar .side-cources li {
   font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
   padding: 10px;
   font-size: 1.2em;
   transition: .2s;
 }
-/* line 219, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .content .sidebar .side-cources li svg {
   margin-right: 10px;
 }
-/* line 223, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 .content .sidebar .side-cources li:hover {
   color: #43aac4;
   background: #fbfeff;
+}
+
+/* line 252, ../sass/style.scss */
+.pages h2 {
+  text-align: left !important;
+  color: #43aac4;
+  margin-bottom: 50px;
+}
+/* line 257, ../sass/style.scss */
+.pages h3 {
+  text-align: left;
+  font-size: 1.6em;
+  margin-bottom: 30px;
+}
+/* line 262, ../sass/style.scss */
+.pages h4 {
+  text-align: left;
+  font-size: 1.5em;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+/* line 269, ../sass/style.scss */
+.pages p {
+  margin-bottom: 30px;
 }
