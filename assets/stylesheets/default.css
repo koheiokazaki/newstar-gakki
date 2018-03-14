@@ -99,7 +99,10 @@ a:active {
 /* line 68, ../sass/default.scss */
 p a {
   text-decoration: underline;
-  transition: all 0.2s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 /* line 72, ../sass/default.scss */
@@ -114,12 +117,17 @@ p a:hover {
 }
 
 /* line 78, ../sass/default.scss */
+.red {
+  color: #c44343;
+}
+
+/* line 81, ../sass/default.scss */
 .container {
   width: 960px;
   margin: 0 auto;
 }
 
-/* line 82, ../sass/default.scss */
+/* line 85, ../sass/default.scss */
 .btn {
   padding: 10px 20px;
   display: inline-block;
@@ -131,5 +139,42 @@ p a:hover {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   font-size: 1.2em;
-  transition: .2s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 93, ../sass/default.scss */
+form select {
+  height: 40px;
+}
+/* line 96, ../sass/default.scss */
+form textarea, form input {
+  border: 1px solid #cecece;
+}
+/* line 99, ../sass/default.scss */
+form input[type="submit"] {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 100px;
+  background-color: #43aac4;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 109, ../sass/default.scss */
+form input[type="submit"]:hover {
+  background-color: #c44343;
+}
+
+/* line 113, ../sass/default.scss */
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
 }

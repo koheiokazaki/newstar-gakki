@@ -10,6 +10,10 @@
     img{
       vertical-align: top;
       width: 250px;
+      @include transition(.3s);
+    }
+    img:hover{
+      @include opacity(.8);
     }
   }
   .head-right{
@@ -41,7 +45,7 @@
       margin-top: 6px;
     }
     .btn:hover{
-      background: #c44343;
+      background: $red;
     }
   }
 }
@@ -52,7 +56,7 @@
     float: left;
     width: 160px;
     text-align: center;
-    transition: .2s;
+    @include transition(.3s);
     font-size: 1.3em;
     padding: 15px 0;
   }
@@ -66,10 +70,11 @@
   #menu{
     display: none;
     position: absolute;
+    z-index: 9999;
     width: 100%;
     height: 300px;
     // margin-top: 20px;
-    background: rgba(255,255,255,.6);
+    background: rgba(255,255,255,.9);
     .menu-title{
       float: left;
       width: 15%;
@@ -100,7 +105,7 @@
         ul li{
           padding: 10px;
           font-size: 1em;
-          transition: .2s;
+          @include transition(.3s);
           border-bottom: 1px dotted #c7ecf5;
           height: 45px;
           box-sizing: border-box;
@@ -126,26 +131,25 @@
 
 .slider, .thumbnail-bk{
   width: 100%;
-  background: #eee;
-  height: 350px;
+  .metaslider{
+    margin: 0 auto;
+  }
 }
 
 .content{
   margin: 50px 0;
   .main_content{
     float: right;
-    // background: #000;
-    height: 500px;
     width: 720px;
     h2{
       text-align: center;
       font-size: 1.7rem;
       line-height: 2.5rem;
       .gray{
-        height: 1px;
+        height: 2px;
         width: 50px;
         margin: 5px auto;
-        background: #ebe8e7;
+        background: #dcdcdc;
       }
       img{
         width: 150px;
@@ -153,7 +157,7 @@
     }
     table{
       width: 100%;
-      margin-bottom: 30px;    
+      margin-bottom: 30px;
     }
     table,tr,th,td{
       font-size: 1.1em;
@@ -166,6 +170,9 @@
       th{
         color: $blue;
         background: $light-blue;
+      }
+      td{
+        background-color: #fff;
       }
     }
     #intro{
@@ -199,10 +206,12 @@
     #experience{
       margin: 30px 0;
       .ex-content{
-        width: 49%;
+        width: 45%;
         height: auto;
         box-sizing: border-box;
-        padding: 10px;
+        margin: 30px 2%;
+        padding: 30px;
+        border: 1px solid #ececec;
         @include inline-block;
         background: #fff;
         h3{
@@ -214,6 +223,43 @@
           font-size: 1rem;
           line-height: 1.4rem;
         }
+      }
+      .btn{
+        @include btn;
+      }
+    }
+    #blog{
+      margin: 30px 0;
+      a:hover{
+        color: $black;
+      }
+      .blog{
+        width: 33.333333%;
+        float: left;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        border-bottom: 1px solid #eee;
+        @include transition(.3s);
+        height: 160px;
+        .date{
+          color: $blue;
+          font-family: 'Open Sans',"游ゴシック体", "Yu Gothic", YuGothic,'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+          font-weight: bold;
+          font-size: 1em;
+        }
+        h3{
+          font-weight: bold;
+          margin: 10px 0;
+          font-size: 1.4em;
+        }
+        p{
+          font-size: 1em;
+          line-height: 2em;
+        }
+      }
+      .blog:hover{
+        background: $light-blue;
+        color: $blue;
       }
       .btn{
         @include btn;
@@ -236,7 +282,7 @@
       font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
       padding: 10px;
       font-size: 1.2em;
-      transition: .2s;
+      @include transition(.3s);
       svg{
         margin-right: 10px;
       }
@@ -249,6 +295,21 @@
 }
 
 .pages{
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+  .metaslider{
+    margin: 0 auto 80px auto;
+  }
+  .date{
+    color: $blue;
+    font-family: 'Open Sans',"游ゴシック体", "Yu Gothic", YuGothic,'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+    padding: 10px;
+    font-size: 1em;
+  }
+  h1{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+  }
   h2{
     text-align: left!important;
     color: $blue;
@@ -268,5 +329,67 @@
   }
   p{
     margin-bottom: 30px;
+  }
+  ul,ol{
+    margin: 0 0 30px 30px;
+    padding: 30px 50px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 1.2em;
+  }
+  ol{
+    li{
+      list-style: decimal;
+    }
+  }
+  ul{
+    li{
+      list-style: disc;
+    }
+  }
+}
+.thumbnail-bk{
+  width: 960px;
+  height: 262px;
+  background: url("../images/bg_1.png") center center;
+  p{
+    padding-top: 90px;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+    font-family: "Marugame","游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+    span{
+      margin-top: 30px;
+      font-size: .6em;
+    }
+  }
+}
+.bg_1{
+  background: url("../images/bg_1.png") center center;
+}
+.bg_2{
+  background: url("../images/bg_2.png") center center;
+}
+.bg_3{
+  background: url("../images/bg_3.png") center center;
+}
+.bg_4{
+  background: url("../images/bg_4.png") center center;
+}
+.bg_5{
+  background: url("../images/bg_5.png") center center;
+}
+footer{
+  background-color: $black;
+  p{
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+    a{
+      color: #fff;
+      text-decoration: none;
+    }
   }
 }

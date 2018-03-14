@@ -67,13 +67,16 @@ a {
 }
 p a {
   text-decoration: underline;
-  transition: all 0.2s;
+  @include transition(.3s);
 }
 p a:hover {
   @include opacity(.8);
 }
 .blue{
-  color: #43aac4;
+  color: $blue;
+}
+.red{
+	color: $red;
 }
 .container{
   width: 960px;
@@ -84,5 +87,31 @@ p a:hover {
   @include inline-block;
   @include border-radius(4px);
   font-size: 1.2em;
-	transition: .2s;
+	@include transition(.3s);
+}
+form{
+	select{
+		height: 40px;
+	}
+	textarea, input{
+		border: 1px solid #cecece;
+	}
+	input[type="submit"]{
+		border: none;
+		border-radius: 4px;
+		padding: 10px 100px;
+		background-color: $blue;
+		color: #fff;
+		font-weight: bold;
+		font-size: 1.2em;
+		@include transition(.3s);
+	}
+	input[type="submit"]:hover{
+		background-color: $red;
+	}
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
 }
