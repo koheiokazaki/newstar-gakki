@@ -15,11 +15,5 @@
       endforeach;
       wp_reset_postdata();
      ?>
-    <!-- <li><span class="date">2018/2/14</span>文字が入ります文字が入ります文字が入ります文字が入ります</li>
-    <li><span class="date">2018/2/14</span>文字が入ります文字が入ります文字が入ります文字が入ります</li>
-    <li><span class="date">2018/2/14</span>文字が入ります文字が入ります文字が入ります文字が入ります</li>
-    <li><span class="date">2018/2/14</span>文字が入ります文字が入ります文字が入ります文字が入ります</li>
-    <li><span class="date">2018/2/14</span>文字が入ります文字が入ります文字が入ります文字が入ります</li>
-    <li><span class="date">2018/2/14</span>文字が入ります文字が入ります文字が入ります文字が入ります</li> -->
   </ul>
 </div>

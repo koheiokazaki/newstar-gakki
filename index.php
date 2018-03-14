@@ -2,8 +2,9 @@
 <body>
   <?php include "menu.php"; ?>
   <div class="slider">
+    <?php echo do_shortcode('[metaslider id="56"]'); ?>
   </div>
-  <div class="content">
+  <div class="content clearfix">
     <div class="container">
       <div class="main_content">
         <h2 class="blue"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/letshavefun.png"><div class="gray bar"></div>ニュースター楽器で<br>音楽を始めてみませんか？</h2>
@@ -33,11 +34,38 @@
             </div>
           </div>
         </div>
+        <?php
+          $instruments = array(
+            'numberposts' => 6,
+            'post_type' => 'post',
+            'order' => desc,
+          );
+          $posts = get_posts( $instruments );
+        ?>
+        <h2 class="blue">ブログ<div class="gray bar"></div></h2>
+        <div id="blog">
+          <?php foreach($posts as $post): setup_postdata( $post );?>
+            <a href="<?php the_permalink(); ?>">
+              <div class="blog">
+                <span class="date"><?php echo the_modified_date(); ?></span>
+                <h3><?php the_title(); ?></h3>
+                <p><?php echo mb_substr(strip_tags($post-> post_content),0,37).'...'; ?></p>
+              </div>
+            </a>
+          <?php
+            endforeach;
+            wp_reset_postdata();
+          ?>
+          <div class="clear"></div>
+          <div class="center">
+            <div class="btn">
+              ブログをもっと見る
+            </div>
+          </div>
+        </div>
       </div>
       <?php get_sidebar(); ?>
       <div class="clear"></div>
     </div>
   </div>
   <?php get_footer(); ?>
-</body>
-</html>
