@@ -1,4 +1,4 @@
-<header>
+<header class="pc">
   <div class="container">
     <div class="head-top">
       <div class="head-left">
@@ -96,13 +96,48 @@
             <div class="clear"></div>
           </div>
         </li>
-        <a href=""><li>講師の紹介</li></a>
-        <a href=""><li>教室の紹介</li></a>
-        <a href=""><li>レッスン料金</li></a>
-        <a href=""><li>お客様の声</li></a>
+        <a href="<?php echo home_url(); ?>/archives/teacher/"><li>講師の紹介</li></a>
+        <a href="<?php echo home_url(); ?>/archives/class/"><li>教室の紹介</li></a>
+        <a href="<?php echo home_url(); ?>/price/"><li>レッスン料金</li></a>
+        <a href="<?php echo home_url(); ?>/archives/review/"><li>お客様の声</li></a>
         <a href="<?php echo home_url(); ?>/access/"><li>アクセス</li></a>
       </ul>
       <div class="clear"></div>
+    </div>
+  </div>
+</header>
+<header class="sp">
+  <div class="container">
+    <div class="head-left">
+      <a href="<?php echo home_url(); ?>">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo.png" />
+      </a>
+    </div>
+    <div class="head-right" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div id="hamburger-menu">
+    <div class="hamburger-header">
+      <ul>
+        <a href="<?php echo home_url(); ?>/archives/teacher/"><li>講師の紹介</li></a>
+        <a href="<?php echo home_url(); ?>/archives/class/"><li>教室の紹介</li></a>
+        <a href="<?php echo home_url(); ?>/price/"><li>レッスン料金</li></a>
+        <a href="<?php echo home_url(); ?>/archives/review/"><li>お客様の声</li></a>
+        <a href="<?php echo home_url(); ?>/access/"><li>アクセス</li></a>
+        <a href="<?php echo home_url(); ?>/company/"><li>会社概要</li></a>
+        <a href="<?php echo home_url(); ?>/event/"><li>イベント</li></a>
+        <a href="<?php echo home_url(); ?>/rhythm/"><li>ピアノ調律</li></a>
+      </ul>
+      <div class="clear"></div>
+      <a href="<?php echo home_url(); ?>/contact/">
+        <div class="center">
+          <div class="btn">
+            無料レッスンの申し込み
+          </div>
+        </div>
+      </a>
     </div>
   </div>
 </header>

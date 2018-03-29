@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* スモールPC
+-------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+  /* line 7, ../sass/responsive.scss */
+  body, .container {
+    width: 100%;
+  }
+
+  /* line 11, ../sass/responsive.scss */
+  .content .main_content {
+    width: 80%;
+  }
+  /* line 14, ../sass/responsive.scss */
+  .content .sidebar {
+    width: 20%;
+  }
+
+  /* line 18, ../sass/responsive.scss */
+  .head-bottom .head-bottom-list li {
+    width: 16.66666666666%;
+    font-size: 1.2em;
+  }
+
+  /* line 22, ../sass/responsive.scss */
+  .menu-content li {
+    width: 150px !important;
+  }
+
+  /* line 25, ../sass/responsive.scss */
+  .thumbnail-bk {
+    width: 100%;
+  }
+}
+/* タブレット
+-------------------------------------------------- */
+@media only screen and (max-width: 750px) {
+  /* line 34, ../sass/responsive.scss */
+  .content .sidebar h2 {
+    font-size: 1.5em;
+  }
+}
+/* スマホ
+-------------------------------------------------- */
+@media only screen and (max-width: 640px) {
+  /* line 45, ../sass/responsive.scss */
+  .sp {
+    display: block;
+  }
+
+  /* line 48, ../sass/responsive.scss */
+  .pc {
+    display: none;
+  }
+
+  /* line 51, ../sass/responsive.scss */
+  header {
+    padding: 10px 0;
+  }
+  /* line 53, ../sass/responsive.scss */
+  header .head-left {
+    float: left;
+    width: 50%;
+  }
+  /* line 56, ../sass/responsive.scss */
+  header .head-left img {
+    width: 80%;
+    margin-left: 5%;
+  }
+  /* line 61, ../sass/responsive.scss */
+  header .head-right {
+    float: right;
+    font-size: 1.7em;
+    margin: 7px 5% 0 0;
+  }
+  /* line 66, ../sass/responsive.scss */
+  header #hamburger-menu {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fffffb;
+  }
+  /* line 73, ../sass/responsive.scss */
+  header #hamburger-menu .hamburger-header {
+    margin-top: 10px;
+  }
+  /* line 75, ../sass/responsive.scss */
+  header #hamburger-menu .hamburger-header ul li {
+    float: left;
+    width: 50%;
+    padding: 10px 0;
+    font-size: 1.1em;
+    text-align: center;
+    border-bottom: 1px solid #f7f6f6;
+  }
+  /* line 83, ../sass/responsive.scss */
+  header #hamburger-menu .hamburger-header .btn {
+    background: #43aac4;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 51px;
+    margin-top: 6px;
+  }
+
+  /* line 89, ../sass/responsive.scss */
+  .content .main_content {
+    width: 100%;
+  }
+  /* line 92, ../sass/responsive.scss */
+  .content .main_content #intro .intro_left, .content .main_content #intro .intro_right {
+    float: none;
+    width: 100%;
+  }
+  /* line 95, ../sass/responsive.scss */
+  .content .main_content #intro .intro_left img, .content .main_content #intro .intro_right img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* line 102, ../sass/responsive.scss */
+  .content .main_content #experience .ex-content {
+    width: 100%;
+    margin: 20px 0;
+    height: auto;
+    float: none;
+  }
+  /* line 110, ../sass/responsive.scss */
+  .content .main_content #blog .blog {
+    width: 100%;
+  }
+  /* line 113, ../sass/responsive.scss */
+  .content .main_content #blog .center {
+    margin-top: 20px;
+  }
+
+  /* line 118, ../sass/responsive.scss */
+  .sidebar {
+    display: none;
+  }
+
+  /* line 121, ../sass/responsive.scss */
+  footer p {
+    font-size: 1em;
+  }
+
+  /* line 125, ../sass/responsive.scss */
+  .pages h1, .pages h2 {
+    margin-left: 10px;
+  }
+  /* line 128, ../sass/responsive.scss */
+  .pages .teacher {
+    width: 50%;
+  }
+}

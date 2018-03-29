@@ -1,0 +1,132 @@
+@import "compass";
+@import "variable.scss";
+
+/* スモールPC
+-------------------------------------------------- */
+@media only screen and (max-width:900px) {
+  body, .container{
+    width: 100%;
+  }
+  .content{
+    .main_content{
+      width: 80%;
+    }
+    .sidebar{
+      width: 20%;
+    }
+  }
+  .head-bottom .head-bottom-list li{
+    width: 16.66666666666%;
+    font-size: 1.2em;
+  }
+  .menu-content li{
+    width: 150px!important;
+  }
+  .thumbnail-bk{
+    width: 100%;
+  }
+}
+
+
+/* タブレット
+-------------------------------------------------- */
+@media only screen and (max-width:750px) {
+  .content .sidebar h2{
+    font-size: 1.5em;
+  }
+}
+
+/* スマホ
+-------------------------------------------------- */
+@media only screen and (max-width:640px) {
+  body{
+    // background: #eee;
+  }
+  .sp{
+    display: block;
+  }
+  .pc{
+    display: none;
+  }
+  header{
+    padding: 10px 0;
+    .head-left{
+      float: left;
+      width: 50%;
+      img{
+        width: 80%;
+        margin-left: 5%;
+      }
+    }
+    .head-right{
+      float: right;
+      font-size: 1.7em;
+      margin: 7px 5% 0 0;
+    }
+    #hamburger-menu{
+      display: none;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fffffb;
+      .hamburger-header{
+        margin-top: 10px;
+        ul li{
+          float: left;
+          width: 50%;
+          padding: 10px 0;
+          font-size: 1.1em;
+          text-align: center;
+          border-bottom: 1px solid #f7f6f6;
+        }
+        .btn{
+          @include btn;
+        }
+      }
+    }
+  }
+  .content .main_content{
+    width: 100%;
+    #intro{
+      .intro_left, .intro_right{
+        float: none;
+        width: 100%;
+        img{
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    #experience{
+      .ex-content{
+        width: 100%;
+        margin: 20px 0;
+        height: auto;
+        float: none;
+      }
+    }
+    #blog{
+      .blog{
+        width: 100%;
+      }
+      .center{
+        margin-top: 20px;
+      }
+    }
+  }
+  .sidebar{
+    display: none;
+  }
+  footer p{
+    font-size: 1em;
+  }
+  .pages{
+    h1, h2{
+      margin-left: 10px;
+    }
+    .teacher{
+      width: 50%;
+    }
+  }
+}

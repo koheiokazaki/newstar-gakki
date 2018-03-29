@@ -1,9 +1,9 @@
 jQuery(function($){
 
   $("#hamburger").on('click', function(){
-    $("#hamburger-menu").slideToggle();
+    alert("hogehoge");
+    console.log("ooo");
   });
-
   $("#course_btn").hover(function() {
     $("#menu").fadeIn(300);
   }, function() {
