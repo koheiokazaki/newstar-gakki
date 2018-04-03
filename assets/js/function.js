@@ -10,4 +10,9 @@ jQuery(function($){
     $("#menu").fadeOut(300);
   });
 
+  $("#course-slider-btn").on('click', function(){
+    console.log("dww");
+    $("#course-slider").slideToggle();
+  });
+
 });

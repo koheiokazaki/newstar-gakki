@@ -44,7 +44,7 @@
     </div>
     <div class="head-bottom">
       <ul class="head-bottom-list">
-        <li id="course_btn"><a href="">コースの紹介</a>
+        <li id="course_btn"><div>コースの紹介</div>
           <div id="menu">
             <div class="menu-title">
               <h2 class="blue">コースの紹介<br><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sidebar-title.png"></h2>
@@ -97,7 +97,7 @@
           </div>
         </li>
         <a href="<?php echo home_url(); ?>/archives/teacher/"><li>講師の紹介</li></a>
-        <a href="<?php echo home_url(); ?>/archives/class/"><li>教室の紹介</li></a>
+        <a href="<?php echo home_url(); ?>/class/"><li>教室の紹介</li></a>
         <a href="<?php echo home_url(); ?>/price/"><li>レッスン料金</li></a>
         <a href="<?php echo home_url(); ?>/archives/review/"><li>お客様の声</li></a>
         <a href="<?php echo home_url(); ?>/access/"><li>アクセス</li></a>
@@ -122,7 +122,7 @@
     <div class="hamburger-header">
       <ul>
         <a href="<?php echo home_url(); ?>/archives/teacher/"><li>講師の紹介</li></a>
-        <a href="<?php echo home_url(); ?>/archives/class/"><li>教室の紹介</li></a>
+        <a href="<?php echo home_url(); ?>/class/"><li>教室の紹介</li></a>
         <a href="<?php echo home_url(); ?>/price/"><li>レッスン料金</li></a>
         <a href="<?php echo home_url(); ?>/archives/review/"><li>お客様の声</li></a>
         <a href="<?php echo home_url(); ?>/access/"><li>アクセス</li></a>

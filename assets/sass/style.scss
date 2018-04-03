@@ -295,6 +295,11 @@
       color: $blue;
       background: $light-blue;
     }
+    iframe{
+      margin-top: 20px!important;
+      width: 200px!important;
+      height: 400px!important;
+    }
   }
 }
 
@@ -439,6 +444,37 @@ footer{
       text-decoration: none;
     }
   }
+  .left{
+    float: left;
+    width: 480px;
+    .fb-page{
+      margin: 30px 0 0 30px;
+    }
+    .footer-img{
+      padding-top: 90px;
+      text-align: center;
+      .white-line{
+        width: 80%;
+        margin: 10px 10% 10px 10%;
+        height: 1px;
+        background-color: #fff;
+      }
+      ul{
+        width: 80%;
+        margin: 0 17%;
+        li{
+          float: left;
+          width: 20%;
+          font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+          color: #fff;
+          @include transition(.3s);
+        }
+        li:hover{
+          color: #fffeac;
+        }
+      }
+    }
+  }
 }
 .balloon1 {
  	position: relative;
@@ -511,4 +547,43 @@ footer{
   p{
     margin: 0;
   }
+}
+.three-column-list{
+  border: none!important;
+  background: #fffffb;
+  margin: 0!important;
+  font-size: 1em!important;
+  li{
+    float: left;
+    list-style: none!important;
+    width: 33.333333333%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px 5px 30px 5px;
+  }
+}
+.post-thumbnail{
+  margin-bottom: 30px;
+  img{
+    width: 100%;
+    height: auto!important;
+  }
+}
+#tickets{
+  margin: 30px 0;
+  li{
+    width: 33.33333333333%;
+    float: left;
+    border: 1px solid #eee;
+    background: #f9f9f9;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+  }
+  li:hover{
+    background: #fff;
+  }
+}
+.simplemap{
+  margin-bottom: 20px;
 }

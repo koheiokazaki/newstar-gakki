@@ -107,50 +107,105 @@
 
   /* line 89, ../sass/responsive.scss */
   .content .main_content {
-    width: 100%;
+    width: 96%;
+    margin: 0 2%;
   }
-  /* line 92, ../sass/responsive.scss */
+  /* line 93, ../sass/responsive.scss */
   .content .main_content #intro .intro_left, .content .main_content #intro .intro_right {
     float: none;
     width: 100%;
   }
-  /* line 95, ../sass/responsive.scss */
+  /* line 96, ../sass/responsive.scss */
   .content .main_content #intro .intro_left img, .content .main_content #intro .intro_right img {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 102, ../sass/responsive.scss */
+  /* line 103, ../sass/responsive.scss */
   .content .main_content #experience .ex-content {
     width: 100%;
     margin: 20px 0;
     height: auto;
     float: none;
   }
-  /* line 110, ../sass/responsive.scss */
+  /* line 111, ../sass/responsive.scss */
   .content .main_content #blog .blog {
     width: 100%;
   }
-  /* line 113, ../sass/responsive.scss */
+  /* line 114, ../sass/responsive.scss */
   .content .main_content #blog .center {
     margin-top: 20px;
   }
 
-  /* line 118, ../sass/responsive.scss */
+  /* line 119, ../sass/responsive.scss */
   .sidebar {
     display: none;
   }
 
-  /* line 121, ../sass/responsive.scss */
+  /* line 122, ../sass/responsive.scss */
   footer p {
     font-size: 1em;
   }
 
-  /* line 125, ../sass/responsive.scss */
+  /* line 126, ../sass/responsive.scss */
   .pages h1, .pages h2 {
     margin-left: 10px;
   }
-  /* line 128, ../sass/responsive.scss */
+  /* line 129, ../sass/responsive.scss */
   .pages .teacher {
     width: 50%;
+  }
+
+  /* line 133, ../sass/responsive.scss */
+  .three-column-list li {
+    float: none;
+    width: auto;
+  }
+
+  /* line 137, ../sass/responsive.scss */
+  .course-slider {
+    width: 60%;
+    margin: 20px 20%;
+    text-align: center;
+  }
+  /* line 141, ../sass/responsive.scss */
+  .course-slider #course-slider-btn {
+    padding: 10px 0;
+    border-radius: 4px;
+    background-color: #43aac4;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  /* line 149, ../sass/responsive.scss */
+  #course-slider {
+    display: none;
+  }
+  /* line 151, ../sass/responsive.scss */
+  #course-slider li {
+    font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+  }
+  /* line 158, ../sass/responsive.scss */
+  #course-slider .agenda {
+    background: #f7f7f7;
+    color: #4e4e4e;
+  }
+
+  /* line 163, ../sass/responsive.scss */
+  .instrument-course th:nth-child(2) {
+    width: 60%;
+  }
+
+  /* line 168, ../sass/responsive.scss */
+  #tickets li {
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box;
   }
 }

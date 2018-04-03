@@ -87,7 +87,8 @@
     }
   }
   .content .main_content{
-    width: 100%;
+    width: 96%;
+    margin: 0 2%;
     #intro{
       .intro_left, .intro_right{
         float: none;
@@ -127,6 +128,51 @@
     }
     .teacher{
       width: 50%;
+    }
+  }
+  .three-column-list li{
+    float: none;
+    width: auto;
+  }
+  .course-slider{
+    width: 60%;
+    margin: 20px 20%;
+    text-align: center;
+    #course-slider-btn{
+      padding: 10px 0;
+      border-radius: 4px;
+      background-color: $blue;
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+  #course-slider{
+    display: none;
+    li{
+      font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+      border-right: 1px solid #eee;
+      border-left: 1px solid #eee;
+    }
+    .agenda{
+      background: #f7f7f7;
+      color: #4e4e4e;
+    }
+  }
+  .instrument-course th:nth-child(2){
+    width: 60%;
+  }
+
+  #tickets{
+    li{
+      width: 100%;
+      // float: left;
+      margin: 10px 0;
+      border: 1px solid #eee;
+      background: #fff;
+      padding: 30px;
+      box-sizing: border-box;
     }
   }
 }

@@ -15,13 +15,20 @@
           while (have_posts()) :
             the_post();
         ?>
-        <span class="date"><?php echo the_modified_date(); ?></span>
+        <!-- <span class="date"><?php echo the_modified_date(); ?></span> -->
         <h1><?php the_title(); ?></h1>
         <?php the_content(); ?>
         <?php
           endwhile;
           endif;
         ?>
+        <div class="center">
+          <a href="<?php echo home_url(); ?>/contact/">
+            <div class="btn">
+              お問い合わせはこちら
+            </div>
+          </a>
+        </div>
       </div>
       <?php get_sidebar(); ?>
       <div class="clear"></div>

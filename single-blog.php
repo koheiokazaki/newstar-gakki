@@ -15,10 +15,8 @@
           while (have_posts()) :
             the_post();
         ?>
+        <span class="date"><?php echo the_modified_date(); ?></span>
         <h1><?php the_title(); ?></h1>
-        <div class="post-thumbnail">
-          <?php echo get_the_post_thumbnail($post->ID, 'post'); ?>
-        </div>
         <?php the_content(); ?>
         <?php
           endwhile;
