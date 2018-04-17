@@ -199,13 +199,27 @@
     width: 60%;
   }
 
-  /* line 168, ../sass/responsive.scss */
-  #tickets li {
+  /* line 169, ../sass/responsive.scss */
+  #tickets .ticket {
+    margin: 20px 0;
+  }
+  /* line 171, ../sass/responsive.scss */
+  #tickets .ticket h2 {
+    text-align: left;
+    padding: 20px 12% 0 13%;
+    font-size: 1.3em;
+    line-height: 1.8em;
+  }
+
+  /* line 179, ../sass/responsive.scss */
+  footer .left {
     width: 100%;
-    margin: 10px 0;
-    border: 1px solid #eee;
-    background: #fff;
-    padding: 30px;
-    box-sizing: border-box;
+    float: none;
+    text-align: center;
+  }
+  /* line 183, ../sass/responsive.scss */
+  footer .left .fb-page {
+    margin: 0;
+    margin-top: 30px;
   }
 }
