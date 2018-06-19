@@ -51,7 +51,7 @@
           $blog = array(
             'numberposts' => 6,
             'post_type' => 'blog',
-            'order' => desc,
+            'order' => asc,
           );
           $posts = get_posts( $blog );
         ?>

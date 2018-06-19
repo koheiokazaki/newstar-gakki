@@ -17,11 +17,20 @@
         ?>
         <span class="date"><?php echo the_modified_date(); ?></span>
         <h1><?php the_title(); ?></h1>
+        <?php echo get_the_post_thumbnail($post->ID, 'post'); ?>
         <?php the_content(); ?>
         <?php
           endwhile;
           endif;
+          wp_reset_postdata();
         ?>
+        <div class="center">
+          <a href="<?php echo home_url(); ?>/contact/">
+            <div class="btn">
+              無料体験レッスンはこちら
+            </div>
+          </a>
+        </div>
       </div>
       <?php get_sidebar(); ?>
       <div class="clear"></div>

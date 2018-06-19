@@ -16,6 +16,7 @@
             the_post();
         ?>
         <h1><?php the_title(); ?></h1>
+        <?php echo get_the_post_thumbnail($post->ID, 'post'); ?>
         <?php the_content(); ?>
         <?php
           endwhile;

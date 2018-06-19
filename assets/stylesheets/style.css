@@ -464,6 +464,12 @@
   list-style: disc;
 }
 /* line 364, ../sass/style.scss */
+.pages img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+/* line 369, ../sass/style.scss */
 .pages .teacher {
   text-align: center;
   width: 33.33333333%;
@@ -476,50 +482,50 @@
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 372, ../sass/style.scss */
+/* line 377, ../sass/style.scss */
 .pages .teacher img.attachment-thumbnail {
   border-radius: 50%;
 }
-/* line 375, ../sass/style.scss */
+/* line 380, ../sass/style.scss */
 .pages .teacher .name, .pages .teacher .subject {
   font-size: 1.1em;
   line-height: 2em;
   margin: 0;
 }
-/* line 381, ../sass/style.scss */
+/* line 386, ../sass/style.scss */
 .pages .teacher:hover {
   background-color: #fbfeff;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 385, ../sass/style.scss */
+/* line 390, ../sass/style.scss */
 .pages .circle {
   text-align: center;
 }
-/* line 387, ../sass/style.scss */
+/* line 392, ../sass/style.scss */
 .pages .circle img {
   border-radius: 50%;
 }
-/* line 392, ../sass/style.scss */
+/* line 397, ../sass/style.scss */
 .pages .teacher-table th {
   width: 25%;
 }
-/* line 397, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 .pages .resson-price th:nth-child(2) {
   width: 45%;
 }
-/* line 400, ../sass/style.scss */
+/* line 405, ../sass/style.scss */
 .pages .resson-price td {
   font-size: .9em;
 }
-/* line 404, ../sass/style.scss */
+/* line 409, ../sass/style.scss */
 .pages .classes {
   margin: 0;
   padding: 0;
   border: none;
   background: none;
 }
-/* line 409, ../sass/style.scss */
+/* line 414, ../sass/style.scss */
 .pages .classes li {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -530,11 +536,11 @@
   border-bottom: 1px solid #eee;
   position: relative;
 }
-/* line 415, ../sass/style.scss */
+/* line 420, ../sass/style.scss */
 .pages .classes li .class {
   font-size: 1.2em;
 }
-/* line 419, ../sass/style.scss */
+/* line 424, ../sass/style.scss */
 .pages .classes li:after {
   content: ">";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
@@ -546,22 +552,22 @@
   top: 23px;
   right: 10px;
 }
-/* line 429, ../sass/style.scss */
+/* line 434, ../sass/style.scss */
 .pages .classes li:hover {
   background: #fbfeff;
   color: #43aac4;
   cursor: pointer;
 }
 
-/* line 437, ../sass/style.scss */
+/* line 442, ../sass/style.scss */
 .navigation .screen-reader-text {
   display: none;
 }
-/* line 441, ../sass/style.scss */
+/* line 446, ../sass/style.scss */
 .navigation .nav-links .page-numbers li:first-child, .navigation .nav-links .page-numbers li:last-child {
   display: none;
 }
-/* line 445, ../sass/style.scss */
+/* line 450, ../sass/style.scss */
 .navigation .nav-links .page-numbers li {
   float: left;
   position: relative;
@@ -573,7 +579,7 @@
   background: #43aac4;
   color: #fff;
 }
-/* line 455, ../sass/style.scss */
+/* line 460, ../sass/style.scss */
 .navigation .nav-links .page-numbers li a, .navigation .nav-links .page-numbers li span {
   color: #fff;
   position: absolute;
@@ -581,18 +587,18 @@
   right: 0;
   width: 100%;
 }
-/* line 464, ../sass/style.scss */
+/* line 469, ../sass/style.scss */
 .navigation .nav-links .prev .next {
   display: none;
 }
 
-/* line 469, ../sass/style.scss */
+/* line 474, ../sass/style.scss */
 .thumbnail-bk {
   width: 960px;
   height: 262px;
   background: url("../images/bg_1.png") center center;
 }
-/* line 473, ../sass/style.scss */
+/* line 478, ../sass/style.scss */
 .thumbnail-bk p {
   padding-top: 90px;
   font-weight: bold;
@@ -601,79 +607,79 @@
   text-align: center;
   font-family: "Marugame","游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
 }
-/* line 480, ../sass/style.scss */
+/* line 485, ../sass/style.scss */
 .thumbnail-bk p span {
   margin-top: 30px;
   font-size: .6em;
 }
 
-/* line 486, ../sass/style.scss */
+/* line 491, ../sass/style.scss */
 .bg_1 {
   background: url("../images/bg_1.png") center center;
 }
 
-/* line 489, ../sass/style.scss */
+/* line 494, ../sass/style.scss */
 .bg_2 {
   background: url("../images/bg_2.png") center center;
 }
 
-/* line 492, ../sass/style.scss */
+/* line 497, ../sass/style.scss */
 .bg_3 {
   background: url("../images/bg_3.png") center center;
 }
 
-/* line 495, ../sass/style.scss */
+/* line 500, ../sass/style.scss */
 .bg_4 {
   background: url("../images/bg_4.png") center center;
 }
 
-/* line 498, ../sass/style.scss */
+/* line 503, ../sass/style.scss */
 .bg_5 {
   background: url("../images/bg_5.png") center center;
 }
 
-/* line 501, ../sass/style.scss */
+/* line 506, ../sass/style.scss */
 footer {
   background-color: #515151;
 }
-/* line 503, ../sass/style.scss */
+/* line 508, ../sass/style.scss */
 footer p {
   padding: 30px 0;
   text-align: center;
   color: #fff;
 }
-/* line 507, ../sass/style.scss */
+/* line 512, ../sass/style.scss */
 footer p a {
   color: #fff;
   text-decoration: none;
 }
-/* line 512, ../sass/style.scss */
+/* line 517, ../sass/style.scss */
 footer .left {
   float: left;
   width: 480px;
 }
-/* line 515, ../sass/style.scss */
+/* line 520, ../sass/style.scss */
 footer .left .fb-page {
   margin: 30px 0 0 30px;
 }
-/* line 518, ../sass/style.scss */
+/* line 523, ../sass/style.scss */
 footer .left .footer-img {
   padding-top: 90px;
   text-align: center;
 }
-/* line 521, ../sass/style.scss */
+/* line 526, ../sass/style.scss */
 footer .left .footer-img .white-line {
   width: 80%;
   margin: 10px 10% 10px 10%;
   height: 1px;
   background-color: #fff;
 }
-/* line 527, ../sass/style.scss */
+/* line 532, ../sass/style.scss */
 footer .left .footer-img ul {
   width: 80%;
   margin: 0 17%;
 }
-/* line 530, ../sass/style.scss */
+/* line 535, ../sass/style.scss */
 footer .left .footer-img ul li {
   float: left;
   width: 20%;
@@ -684,12 +690,12 @@ footer .left .footer-img ul li {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-/* line 537, ../sass/style.scss */
+/* line 542, ../sass/style.scss */
 footer .left .footer-img ul li:hover {
   color: #fffeac;
 }
 
-/* line 544, ../sass/style.scss */
+/* line 549, ../sass/style.scss */
 .balloon1 {
   position: relative;
   display: inline-block;
@@ -703,7 +709,7 @@ footer .left .footer-img ul li:hover {
   border-radius: 15px;
 }
 
-/* line 557, ../sass/style.scss */
+/* line 562, ../sass/style.scss */
 .balloon1:before {
   content: "";
   position: absolute;
@@ -714,13 +720,13 @@ footer .left .footer-img ul li:hover {
   border-top: 15px solid #e0edff;
 }
 
-/* line 567, ../sass/style.scss */
+/* line 572, ../sass/style.scss */
 .balloon1 p {
   margin: 0;
   padding: 0;
 }
 
-/* line 572, ../sass/style.scss */
+/* line 577, ../sass/style.scss */
 .review {
   border: 1px solid #eee;
   background-color: #fff;
@@ -730,15 +736,15 @@ footer .left .footer-img ul li:hover {
   box-sizing: border-box;
   position: relative;
 }
-/* line 580, ../sass/style.scss */
+/* line 585, ../sass/style.scss */
 .review table, .review th, .review td {
   border: none;
 }
-/* line 583, ../sass/style.scss */
+/* line 588, ../sass/style.scss */
 .review .review-status {
   margin-bottom: 10px;
 }
-/* line 586, ../sass/style.scss */
+/* line 591, ../sass/style.scss */
 .review .which {
   position: absolute;
   top: 0;
@@ -749,19 +755,19 @@ footer .left .footer-img ul li:hover {
   padding: 5px 10px;
 }
 
-/* line 596, ../sass/style.scss */
+/* line 601, ../sass/style.scss */
 .adult {
   color: #fff;
   background-color: #43aac4;
 }
 
-/* line 600, ../sass/style.scss */
+/* line 605, ../sass/style.scss */
 .child {
   color: #fff;
   background-color: #c44343;
 }
 
-/* line 604, ../sass/style.scss */
+/* line 609, ../sass/style.scss */
 .half-btn {
   width: 45%;
   float: left;
@@ -771,19 +777,19 @@ footer .left .footer-img ul li:hover {
   border-radius: 5px;
   font-weight: bold;
 }
-/* line 612, ../sass/style.scss */
+/* line 617, ../sass/style.scss */
 .half-btn p {
   margin: 0;
 }
 
-/* line 616, ../sass/style.scss */
+/* line 621, ../sass/style.scss */
 .three-column-list {
   border: none !important;
   background: #fffffb;
   margin: 0 !important;
   font-size: 1em !important;
 }
-/* line 621, ../sass/style.scss */
+/* line 626, ../sass/style.scss */
 .three-column-list li {
   float: left;
   list-style: none !important;
@@ -793,21 +799,21 @@ footer .left .footer-img ul li:hover {
   padding: 5px 5px 30px 5px;
 }
 
-/* line 630, ../sass/style.scss */
+/* line 635, ../sass/style.scss */
 .post-thumbnail {
   margin-bottom: 30px;
 }
-/* line 632, ../sass/style.scss */
+/* line 637, ../sass/style.scss */
 .post-thumbnail img {
   width: 100%;
   height: auto !important;
 }
 
-/* line 637, ../sass/style.scss */
+/* line 642, ../sass/style.scss */
 #tickets {
   margin: 30px 0;
 }
-/* line 638, ../sass/style.scss */
+/* line 643, ../sass/style.scss */
 #tickets .ticket {
   width: 100%;
   height: 100px;
@@ -816,14 +822,14 @@ footer .left .footer-img ul li:hover {
   background: #fff;
   position: relative;
 }
-/* line 639, ../sass/style.scss */
+/* line 644, ../sass/style.scss */
 #tickets .ticket h2 {
   width: 65%;
   text-align: center;
   padding: 35px 12% 0 13%;
   font-size: 1.3em;
 }
-/* line 652, ../sass/style.scss */
+/* line 657, ../sass/style.scss */
 #tickets .ticket:after {
   content: "";
   position: absolute;
@@ -834,7 +840,7 @@ footer .left .footer-img ul li:hover {
   background-color: #c44343;
   border-left: 3px dotted #eee;
 }
-/* line 663, ../sass/style.scss */
+/* line 668, ../sass/style.scss */
 #tickets li {
   width: 33.33333333333%;
   float: left;
@@ -844,24 +850,24 @@ footer .left .footer-img ul li:hover {
   box-sizing: border-box;
   font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
 }
-/* line 672, ../sass/style.scss */
+/* line 677, ../sass/style.scss */
 #tickets li:hover {
   background: #fff;
 }
 
-/* line 676, ../sass/style.scss */
+/* line 681, ../sass/style.scss */
 .simplemap {
   margin-bottom: 20px;
 }
 
-/* line 679, ../sass/style.scss */
+/* line 684, ../sass/style.scss */
 .blog_title {
   border-bottom: 1px solid #eee;
   padding-bottom: 20px;
   margin-bottom: 50px;
 }
 
-/* line 684, ../sass/style.scss */
+/* line 689, ../sass/style.scss */
 .blog_list li {
   font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
   list-style: none;
@@ -872,24 +878,24 @@ footer .left .footer-img ul li:hover {
   background: #fff;
   box-sizing: border-box;
 }
-/* line 685, ../sass/style.scss */
+/* line 690, ../sass/style.scss */
 .blog_list li h2 {
   text-align: left !important;
   font-size: 1.3em !important;
 }
-/* line 689, ../sass/style.scss */
+/* line 694, ../sass/style.scss */
 .blog_list li p {
   font-size: .9em;
   line-height: 1.3em;
 }
 
-/* line 703, ../sass/style.scss */
+/* line 708, ../sass/style.scss */
 .blog_list li:hover {
   color: #43aac4;
   background: #fbfeff;
 }
 
-/* line 707, ../sass/style.scss */
+/* line 712, ../sass/style.scss */
 .blog_list li a:hover {
   color: #43aac4;
 }

@@ -34,6 +34,20 @@
   .content .sidebar h2{
     font-size: 1.5em;
   }
+  .content .main_content {
+    h2{
+    font-size: 1.5rem;
+    }
+    #intro{
+      margin: 30px 10px;
+    }
+    #notice{
+      margin: 30px 10px;
+    }
+  }
+  .sidebar img{
+    max-width: 100%;
+  }
 }
 
 /* スマホ

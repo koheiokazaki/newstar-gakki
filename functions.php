@@ -27,10 +27,18 @@ function check_cur_page(){
     $arr = array("bg_4", "イベント", "Event");
   }elseif ( strpos($page, 'class') !== false ) {
     $arr = array("bg_4", "教室の紹介", "Class");
+  }elseif ( strpos($page, '/archives/blog') !== false ) {
+    $arr = array("bg_4", "ブログ", "Blog");
   }
 
   return $arr;
 }
+
+
+function publicize() {
+    add_post_type_support( 'blog', 'publicize' );
+}
+add_action( 'init', 'publicize' );
 
 function teacher_cat_query( $category ){
   $teachers = new WP_Query(
