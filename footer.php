@@ -9,8 +9,8 @@
         <div class="white-line"></div>
         <ul>
           <a href="<?php echo home_url(); ?>/company/"><li>会社概要</li></a>
-          <a href="<?php echo home_url(); ?>/price/"><li>料金</li></a>
-          <a href="<?php echo home_url(); ?>/archives/review"><li>お客様の声</li></a>
+          <a href="<?php echo home_url(); ?>/vision/"><li>ビジョン</li></a>
+          <a href="<?php echo home_url(); ?>/company-guideline/"><li>企業倫理ガイドライン</li></a>
           <a href="<?php echo home_url(); ?>/access/"><li>アクセス</li></a>
         </ul>
         <div class="clear"></div>

@@ -3,7 +3,11 @@ add_theme_support( 'post-thumbnails' );
 
 function check_cur_page(){
   $page = $_SERVER["REQUEST_URI"];
-  if ( strpos($page, 'company') !== false ) {
+  if (strpos($page, 'company-guideline') !== false) {
+    $arr = array("bg_4", "企業倫理ガイドライン", "Guideline");
+  }elseif ( strpos($page, 'vision') !== false ) {
+    $arr = array("bg_2", "ビジョン", "Vision");
+  }elseif ( strpos($page, 'company') !== false ) {
     $arr = array("bg_4", "会社概要", "Company");
   }elseif ( strpos($page, 'tickets') !== false ) {
     $arr = array("bg_4", "お得なチケット", "Ticket");
