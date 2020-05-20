@@ -34,7 +34,7 @@
   <div class="content clearfix">
     <div class="container">
       <div class="main_content">
-        <h2 class="blue"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/letshavefun.png"><div class="gray bar"></div>ニュースター楽器で<br>音楽を始めてみませんか？</h2>
+        <h1 class="blue"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/letshavefun.png"><div class="gray bar"></div>ニュースター楽器は<br>吉祥寺/西荻窪/阿佐ヶ谷/鷺ノ宮/武蔵関/所沢<br>にある音楽教室です</h1>
         <div id="intro">
           <div class="intro_right">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/piano-back.png">
@@ -51,7 +51,7 @@
           $blog = array(
             'numberposts' => 6,
             'post_type' => 'blog',
-            'order' => asc,
+            'order' => desc,
           );
           $posts = get_posts( $blog );
         ?>

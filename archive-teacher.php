@@ -63,11 +63,13 @@
         <?php if($etcs -> have_posts()): ?>
           <h2>その他の講師</h2>
             <?php while($etcs -> have_posts()): $etcs->the_post();?>
-              <div class="teacher">
-                <?php the_post_thumbnail('thumbnail'); ?>
-                <p class="name"><?php echo esc_html( $post->名前 ); ?></p>
-                <p class="subject"><?php echo esc_html( $post->科目 ); ?></p>
-              </div>
+              <a href="<?php echo the_permalink(); ?>">
+                <div class="teacher">
+                  <?php the_post_thumbnail('thumbnail'); ?>
+                  <p class="name"><?php echo esc_html( $post->名前 ); ?></p>
+                  <p class="subject"><?php echo esc_html( $post->科目 ); ?></p>
+                </div>
+              </a>
             <?php endwhile; ?>
         <?php endif; ?>
       </div>

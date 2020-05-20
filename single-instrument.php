@@ -15,7 +15,7 @@
           while (have_posts()) :
             the_post();
         ?>
-        <h1><?php the_title(); ?></h1>
+        <h1><?php the_title(); ?>教室について</h1>
         <?php echo get_the_post_thumbnail($post->ID, 'post'); ?>
         <?php the_content(); ?>
         <?php

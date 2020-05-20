@@ -38,7 +38,6 @@ function check_cur_page(){
   return $arr;
 }
 
-
 function publicize() {
     add_post_type_support( 'blog', 'publicize' );
 }

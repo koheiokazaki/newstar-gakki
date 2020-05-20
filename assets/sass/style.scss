@@ -145,10 +145,11 @@
   .main_content{
     float: right;
     width: 720px;
-    h2{
+    h1,h2{
       text-align: center;
       font-size: 1.7rem;
       line-height: 2.5rem;
+      font-weight: normal;
       .gray{
         height: 2px;
         width: 50px;
@@ -303,7 +304,14 @@
     }
   }
 }
-
+.content .pages h1{
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 2em;
+}
 .pages{
   font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
   .metaslider{
@@ -317,11 +325,6 @@
     font-family: 'Open Sans',"游ゴシック体", "Yu Gothic", YuGothic,'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
     padding: 10px;
     font-size: 1em;
-  }
-  h1{
-    border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
-    margin-bottom: 50px;
   }
   h2{
     text-align: left!important;
@@ -376,6 +379,7 @@
     @include transition(.3s);
     img.attachment-thumbnail{
       border-radius: 50%;
+      margin-bottom: 20px;
     }
     .name, .subject{
       font-size: 1.1em;

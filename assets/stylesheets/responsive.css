@@ -61,37 +61,42 @@
 /* スマホ
 -------------------------------------------------- */
 @media only screen and (max-width: 640px) {
-  /* line 59, ../sass/responsive.scss */
+  /* line 58, ../sass/responsive.scss */
+  body p {
+    font-size: 15px;
+  }
+
+  /* line 62, ../sass/responsive.scss */
   .sp {
     display: block;
   }
 
-  /* line 62, ../sass/responsive.scss */
+  /* line 65, ../sass/responsive.scss */
   .pc {
     display: none;
   }
 
-  /* line 65, ../sass/responsive.scss */
+  /* line 68, ../sass/responsive.scss */
   header {
     padding: 10px 0;
   }
-  /* line 67, ../sass/responsive.scss */
+  /* line 70, ../sass/responsive.scss */
   header .head-left {
     float: left;
     width: 50%;
   }
-  /* line 70, ../sass/responsive.scss */
+  /* line 73, ../sass/responsive.scss */
   header .head-left img {
     width: 80%;
     margin-left: 5%;
   }
-  /* line 75, ../sass/responsive.scss */
+  /* line 78, ../sass/responsive.scss */
   header .head-right {
     float: right;
     font-size: 1.7em;
     margin: 7px 5% 0 0;
   }
-  /* line 80, ../sass/responsive.scss */
+  /* line 83, ../sass/responsive.scss */
   header #hamburger-menu {
     display: none;
     top: 0;
@@ -100,11 +105,11 @@
     height: 100%;
     background-color: #fffffb;
   }
-  /* line 87, ../sass/responsive.scss */
+  /* line 90, ../sass/responsive.scss */
   header #hamburger-menu .hamburger-header {
     margin-top: 10px;
   }
-  /* line 89, ../sass/responsive.scss */
+  /* line 92, ../sass/responsive.scss */
   header #hamburger-menu .hamburger-header ul li {
     float: left;
     width: 50%;
@@ -113,7 +118,7 @@
     text-align: center;
     border-bottom: 1px solid #f7f6f6;
   }
-  /* line 97, ../sass/responsive.scss */
+  /* line 100, ../sass/responsive.scss */
   header #hamburger-menu .hamburger-header .btn {
     background: #43aac4;
     color: #fff;
@@ -123,69 +128,78 @@
     margin-top: 6px;
   }
 
-  /* line 103, ../sass/responsive.scss */
+  /* line 106, ../sass/responsive.scss */
   .content .main_content {
     width: 96%;
     margin: 0 2%;
   }
-  /* line 107, ../sass/responsive.scss */
+  /* line 109, ../sass/responsive.scss */
+  .content .main_content iframe {
+    max-width: 100%;
+  }
+  /* line 112, ../sass/responsive.scss */
+  .content .main_content h1, .content .main_content h2 {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+  }
+  /* line 117, ../sass/responsive.scss */
   .content .main_content #intro .intro_left, .content .main_content #intro .intro_right {
     float: none;
     width: 100%;
   }
-  /* line 110, ../sass/responsive.scss */
+  /* line 120, ../sass/responsive.scss */
   .content .main_content #intro .intro_left img, .content .main_content #intro .intro_right img {
     width: 100%;
     margin-bottom: 20px;
   }
-  /* line 117, ../sass/responsive.scss */
+  /* line 127, ../sass/responsive.scss */
   .content .main_content #experience .ex-content {
     width: 100%;
     margin: 20px 0;
     height: auto;
     float: none;
   }
-  /* line 125, ../sass/responsive.scss */
+  /* line 135, ../sass/responsive.scss */
   .content .main_content #blog .blog {
     width: 100%;
   }
-  /* line 128, ../sass/responsive.scss */
+  /* line 138, ../sass/responsive.scss */
   .content .main_content #blog .center {
     margin-top: 20px;
   }
 
-  /* line 133, ../sass/responsive.scss */
+  /* line 143, ../sass/responsive.scss */
   .sidebar {
     display: none;
   }
 
-  /* line 136, ../sass/responsive.scss */
+  /* line 146, ../sass/responsive.scss */
   footer p {
     font-size: 1em;
   }
 
-  /* line 140, ../sass/responsive.scss */
+  /* line 150, ../sass/responsive.scss */
   .pages h1, .pages h2 {
     margin-left: 10px;
   }
-  /* line 143, ../sass/responsive.scss */
+  /* line 153, ../sass/responsive.scss */
   .pages .teacher {
     width: 50%;
   }
 
-  /* line 147, ../sass/responsive.scss */
+  /* line 157, ../sass/responsive.scss */
   .three-column-list li {
     float: none;
     width: auto;
   }
 
-  /* line 151, ../sass/responsive.scss */
+  /* line 161, ../sass/responsive.scss */
   .course-slider {
     width: 60%;
     margin: 20px 20%;
     text-align: center;
   }
-  /* line 155, ../sass/responsive.scss */
+  /* line 165, ../sass/responsive.scss */
   .course-slider #course-slider-btn {
     padding: 10px 0;
     border-radius: 4px;
@@ -194,11 +208,11 @@
     font-weight: bold;
   }
 
-  /* line 163, ../sass/responsive.scss */
+  /* line 173, ../sass/responsive.scss */
   #course-slider {
     display: none;
   }
-  /* line 165, ../sass/responsive.scss */
+  /* line 175, ../sass/responsive.scss */
   #course-slider li {
     font-family: "游ゴシック体", "Yu Gothic", YuGothic,'Open Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',Meiryo,メイリオ,sans-serif;
     padding: 10px;
@@ -206,36 +220,36 @@
     border-right: 1px solid #eee;
     border-left: 1px solid #eee;
   }
-  /* line 172, ../sass/responsive.scss */
+  /* line 182, ../sass/responsive.scss */
   #course-slider .agenda {
     background: #f7f7f7;
     color: #4e4e4e;
   }
 
-  /* line 177, ../sass/responsive.scss */
+  /* line 187, ../sass/responsive.scss */
   .instrument-course th:nth-child(2) {
     width: 60%;
   }
 
-  /* line 183, ../sass/responsive.scss */
+  /* line 192, ../sass/responsive.scss */
   #tickets .ticket {
     margin: 20px 0;
   }
-  /* line 185, ../sass/responsive.scss */
+  /* line 194, ../sass/responsive.scss */
   #tickets .ticket h2 {
     text-align: left;
     padding: 20px 12% 0 13%;
-    font-size: 1.3em;
+    font-size: 15px;
     line-height: 1.8em;
   }
 
-  /* line 193, ../sass/responsive.scss */
+  /* line 202, ../sass/responsive.scss */
   footer .left {
     width: 100%;
     float: none;
     text-align: center;
   }
-  /* line 197, ../sass/responsive.scss */
+  /* line 206, ../sass/responsive.scss */
   footer .left .fb-page {
     margin: 0;
     margin-top: 30px;

@@ -55,6 +55,9 @@
 @media only screen and (max-width:640px) {
   body{
     // background: #eee;
+    p{
+      font-size: 15px;
+    }
   }
   .sp{
     display: block;
@@ -103,6 +106,13 @@
   .content .main_content{
     width: 96%;
     margin: 0 2%;
+    iframe{
+      max-width: 100%;
+    }
+    h1,h2{
+      font-size: 1.2rem;
+      line-height: 2.2rem;
+    }
     #intro{
       .intro_left, .intro_right{
         float: none;
@@ -179,13 +189,12 @@
   }
 
   #tickets{
-
     .ticket{
       margin: 20px 0;
       h2{
         text-align: left;
         padding: 20px 12% 0 13%;
-        font-size: 1.3em;
+        font-size: 15px;
         line-height: 1.8em;
       }
     }
